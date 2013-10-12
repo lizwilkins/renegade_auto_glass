@@ -1,0 +1,112 @@
+header {
+  background-color: black;
+}
+
+header > .row > .large-12 > h1 {
+  color: lime;
+}
+
+.zurb-footer-bottom {
+  background: #333;
+  padding: 24px 0 10px; }
+
+.zurb-footer-bottom .design-border {
+  border-bottom: 1px solid #484848;
+  padding-bottom: 5px;
+  margin-bottom: 25px; }
+
+.zurb-footer-bottom a.zurb-logo {
+  color: #858585;
+  font-weight: normal;
+  background: url("../icons/footer-icons.png") no-repeat 0 3px;
+  padding: 25px 0 0 0;
+  font-size: 1em;
+  display: inline-block;
+  font-family: "Proxima Nova", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 90px; }
+
+.zurb-footer-bottom a.zurb-logo:hover {
+  opacity: 0.8; }
+
+.zurb-footer-bottom ul.zurb-links {
+  margin: 0;
+  display: inline-block; }
+
+.zurb-footer-bottom ul.zurb-links li {
+  display: block;
+  float: left;
+  margin-left: 6px;
+  font-family: "Proxima Nova Condensed", "proxima-nova-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px; }
+
+.zurb-footer-bottom ul.zurb-links li a {
+  color: #666;
+  padding: 3px 6px; }
+
+.zurb-footer-bottom ul.zurb-links li a:hover {
+  color: #777; }
+
+.zurb-footer-bottom p.copyright {
+  margin: 6px 0 0;
+  font-size: 12px;
+  color: #666; }
+
+.zurb-footer-bottom ul.home-social {
+  display: block;
+  float: right;
+  margin-bottom: 8px; }
+
+.zurb-footer-bottom ul.home-social li {
+  list-style: none;
+  display: block;
+  float: left;
+  margin-left: 10px; }
+
+.zurb-footer-bottom ul.home-social li:first-child {
+  margin-left: 0; }
+
+.zurb-footer-bottom ul.home-social li a {
+  display: block;
+  height: 50px;
+  width: 50px;
+  background: url("../icons/social.png") no-repeat center 0; }
+
+.zurb-footer-bottom ul.home-social li a:hover {
+  opacity: 0.8; }
+
+.zurb-footer-bottom ul.home-social li a.twitter {
+  background-position: center 0; }
+
+.zurb-footer-bottom ul.home-social li a.facebook {
+  background-position: center -200px; }
+
+.zurb-footer-bottom ul.home-social li a.mail {
+  background-position: center -400px; }
+
+.zurb-footer-bottom {
+  text-align: center; }
+
+.zurb-footer-bottom .columns {
+  padding: 0; }
+
+.zurb-footer-bottom a.zurb-logo {
+  display: block;
+  margin: 0 auto; }
+
+.zurb-footer-bottom ul.zurb-links {
+  margin: 16px 0 10px; }
+
+.zurb-footer-bottom ul.home-social {
+  float: none;
+  margin: 0 0 20px 0;
+  text-align: center;
+  height: 44px;
+  display: inline-block; } }
+
+.zurb-footer-bottom p.copyright {
+  margin-bottom: 20px !important; }
+
+.zurb-footer-bottom ul.zurb-links li a {
+  font-size: 12px; }
