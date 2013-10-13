@@ -2,20 +2,66 @@ header {
   background-color: black;
 }
 
-header > .row > .large-12 > h1 {
+header > .row > .large-6 > h1 > a {
   color: lime;
 }
 
-.zurb-footer-bottom {
-  background: #333;
-  padding: 24px 0 10px; }
+header > .row > .large-6 > h4 {
+  color: lime;
+}
 
-.zurb-footer-bottom .design-border {
+header > .row > .large-12 {
+  color: lime;
+}
+
+header > .row > .large-5 {
+  color: lime;
+}
+
+header > .row > .large-5 > h4 {
+  margin: 20px;
+  color: lime;
+}
+
+.navbar {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding: 10px;
+  background-color: black;
+}
+
+.navbar > .row > .large-12 {
+  color: lime;
+}
+
+.navbar > .row > .large-12 a:link {
+  color: lime; text-decoration: none;
+}
+
+.navbar > .row > .large-12 a:visited {
+  color: #2ba6cb; text-decoration: none;
+}
+
+.navbar > .row > .large-12 a:hover {
+  color: #2795b6; text-decoration: none;
+}
+
+.navbar > .row > .large-12 a:active {
+  color: #6600ff; text-decoration: none;
+}
+
+.footer-bottom {
+  background: #333;
+  padding: 24px 0 10px; 
+  color: lime;
+}
+
+.footer-bottom .design-border {
   border-bottom: 1px solid #484848;
   padding-bottom: 5px;
   margin-bottom: 25px; }
 
-.zurb-footer-bottom a.zurb-logo {
+.footer-bottom a.zurb-logo {
   color: #858585;
   font-weight: normal;
   background: url("../icons/footer-icons.png") no-repeat 0 3px;
@@ -25,14 +71,14 @@ header > .row > .large-12 > h1 {
   font-family: "Proxima Nova", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: 90px; }
 
-.zurb-footer-bottom a.zurb-logo:hover {
+.footer-bottom a.zurb-logo:hover {
   opacity: 0.8; }
 
-.zurb-footer-bottom ul.zurb-links {
+.footer-bottom ul.zurb-links {
   margin: 0;
   display: inline-block; }
 
-.zurb-footer-bottom ul.zurb-links li {
+.footer-bottom ul.zurb-links li {
   display: block;
   float: left;
   margin-left: 6px;
@@ -41,72 +87,72 @@ header > .row > .large-12 > h1 {
   font-weight: 700;
   font-size: 13px; }
 
-.zurb-footer-bottom ul.zurb-links li a {
+.footer-bottom ul.zurb-links li a {
   color: #666;
   padding: 3px 6px; }
 
-.zurb-footer-bottom ul.zurb-links li a:hover {
+.footer-bottom ul.zurb-links li a:hover {
   color: #777; }
 
-.zurb-footer-bottom p.copyright {
+.footer-bottom p.copyright {
   margin: 6px 0 0;
   font-size: 12px;
   color: #666; }
 
-.zurb-footer-bottom ul.home-social {
+.footer-bottom ul.home-social {
   display: block;
   float: right;
   margin-bottom: 8px; }
 
-.zurb-footer-bottom ul.home-social li {
+.footer-bottom ul.home-social li {
   list-style: none;
   display: block;
   float: left;
   margin-left: 10px; }
 
-.zurb-footer-bottom ul.home-social li:first-child {
+.footer-bottom ul.home-social li:first-child {
   margin-left: 0; }
 
-.zurb-footer-bottom ul.home-social li a {
+.footer-bottom ul.home-social li a {
   display: block;
   height: 50px;
   width: 50px;
   background: url("../icons/social.png") no-repeat center 0; }
 
-.zurb-footer-bottom ul.home-social li a:hover {
+.footer-bottom ul.home-social li a:hover {
   opacity: 0.8; }
 
-.zurb-footer-bottom ul.home-social li a.twitter {
+.footer-bottom ul.home-social li a.twitter {
   background-position: center 0; }
 
-.zurb-footer-bottom ul.home-social li a.facebook {
+.footer-bottom ul.home-social li a.facebook {
   background-position: center -200px; }
 
-.zurb-footer-bottom ul.home-social li a.mail {
+.footer-bottom ul.home-social li a.mail {
   background-position: center -400px; }
 
-.zurb-footer-bottom {
+.footer-bottom {
   text-align: center; }
 
-.zurb-footer-bottom .columns {
+.footer-bottom .columns {
   padding: 0; }
 
-.zurb-footer-bottom a.zurb-logo {
+.footer-bottom a.zurb-logo {
   display: block;
   margin: 0 auto; }
 
-.zurb-footer-bottom ul.zurb-links {
+.footer-bottom ul.zurb-links {
   margin: 16px 0 10px; }
 
-.zurb-footer-bottom ul.home-social {
+.footer-bottom ul.home-social {
   float: none;
   margin: 0 0 20px 0;
   text-align: center;
   height: 44px;
   display: inline-block; } }
 
-.zurb-footer-bottom p.copyright {
+.footer-bottom p.copyright {
   margin-bottom: 20px !important; }
 
-.zurb-footer-bottom ul.zurb-links li a {
+.footer-bottom ul.zurb-links li a {
   font-size: 12px; }
